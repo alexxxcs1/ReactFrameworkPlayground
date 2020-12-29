@@ -29,7 +29,6 @@ export class Server {
         const { projectEnter, webpackConfig } = config;
         const output = webpackConfig?.output || 'publish';
         const peojectEnterUMD = require(path.resolve(output)).default;
-        debugger;
         Server.app.use(express.static(path.resolve(output)));
         
         Server.app.use('/',(req,res,next)=> {
