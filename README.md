@@ -4,6 +4,8 @@ step.1 npm install
 
 step.2 npm run start
 
+step.3 http://localhost:3001/barview
+
 # 现在可以干什么？
 
 代码 **简陋的** **自用的** **普通的** 同构框架
